@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0067824820d4f89a03fbc5b44317ee6, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: 
+  asteroids:
+  - prefab: {fileID: 187036, guid: d7e9dc2247ea00e41bea6d748384a854, type: 3}
+    transform:
+      position: {x: 1790, y: 100, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 3, y: 3, z: 3}
+  - prefab: {fileID: 110840, guid: a2c05570af63bca4db1a0cd619539938, type: 3}
+    transform:
+      position: {x: 863, y: 45, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 3, y: 3, z: 3}
+  - prefab: {fileID: 187036, guid: d7e9dc2247ea00e41bea6d748384a854, type: 3}
+    transform:
+      position: {x: 2111, y: -61, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 3, y: 3, z: 3}
+  - prefab: {fileID: 187036, guid: d7e9dc2247ea00e41bea6d748384a854, type: 3}
+    transform:
+      position: {x: 2276, y: 19, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 3, y: 3, z: 3}
+  - prefab: {fileID: 187036, guid: d7e9dc2247ea00e41bea6d748384a854, type: 3}
+    transform:
+      position: {x: 2383, y: 36, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 3, y: 3, z: 3}
+  - prefab: {fileID: 187036, guid: d7e9dc2247ea00e41bea6d748384a854, type: 3}
+    transform:
+      position: {x: 2200, y: -28, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 3, y: 3, z: 3}
+  - prefab: {fileID: 110840, guid: a2c05570af63bca4db1a0cd619539938, type: 3}
+    transform:
+      position: {x: 1066, y: -71, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 3, y: 3, z: 3}
+  - prefab: {fileID: 110840, guid: a2c05570af63bca4db1a0cd619539938, type: 3}
+    transform:
+      position: {x: 1209, y: 100, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 3, y: 3, z: 3}
+  - prefab: {fileID: 110840, guid: a2c05570af63bca4db1a0cd619539938, type: 3}
+    transform:
+      position: {x: 1374, y: -56, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 3, y: 3, z: 3}
+  bonuses: []
+  enemies: []
