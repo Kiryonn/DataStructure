@@ -7,9 +7,9 @@ using UnityEditor;
 
 [CreateAssetMenu(fileName = "LevelData", menuName = "StructureDeDonnees/LevelData")]
 public class LevelData: ScriptableObject {
+	[SerializeField] private static string containerName = "Objects";
 	public List<ObjectData> objects;
 	[Tooltip("Make sure to put objects (asteroids, enemies, gates, ...) into a GameObject with that name")]
-	[SerializeField] private string containerName = "Objects";
 
 #if UNITY_EDITOR
 	// ReSharper disable Unity.PerformanceAnalysis

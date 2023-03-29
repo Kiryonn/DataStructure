@@ -9,13 +9,13 @@ public class Asteroid: MonoBehaviour {
 
 	private void Start()
 	{
-		rotationVelocity = Globals.RandomVector3(0, 1);
-
-		velocity = Random.Range(0, 1) < 0.1 ? Globals.RandomVector3(0, 1) : Vector3.zero;
+		// rotationVelocity = Globals.RandomVector3(0, 1);
+		//
+		// velocity = Random.Range(0, 1) < 0.1 ? Globals.RandomVector3(0, 1) : Vector3.zero;
 	}
 
 	private void Update() {
-		transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + Time.deltaTime * 10 * rotationVelocity);
-		transform.position += velocity;
+		// transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles + Time.deltaTime * 10 * rotationVelocity);
+		// transform.position += velocity;
 	}
 }

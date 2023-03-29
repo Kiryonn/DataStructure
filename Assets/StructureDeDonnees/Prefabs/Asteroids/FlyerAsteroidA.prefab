@@ -51,7 +51,7 @@ MonoBehaviour:
   maxHealth: 10
   deathAnimation: {fileID: 199016, guid: 4a4908acf188e0344a6cec17a9f57cbe, type: 3}
   deathAnimationDuration: 2
-  visibilityCheckerName: isAsteroidHealthVisible
+  visibilityChecker: 1
   healthBar: {fileID: 3964075181575545423}
 --- !u!64 &1291538956090267595
 MeshCollider:

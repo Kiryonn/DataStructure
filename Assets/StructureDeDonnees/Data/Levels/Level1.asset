@@ -12,51 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0067824820d4f89a03fbc5b44317ee6, type: 3}
   m_Name: Level1
   m_EditorClassIdentifier: 
-  asteroids:
+  objects:
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 1120, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 1220, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 1320, y: 0, z: 0}
   - prefab: {fileID: 110840, guid: a2c05570af63bca4db1a0cd619539938, type: 3}
-    transform:
-      position: {x: 932, y: -113, z: 0}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
-      scale: {x: 3, y: 3, z: 3}
+    position: {x: 932, y: -113, z: 0}
   - prefab: {fileID: 110840, guid: a2c05570af63bca4db1a0cd619539938, type: 3}
-    transform:
-      position: {x: 942, y: 91, z: 0}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
-      scale: {x: 3, y: 3, z: 3}
+    position: {x: 905, y: 111, z: 0}
   - prefab: {fileID: 110840, guid: a2c05570af63bca4db1a0cd619539938, type: 3}
-    transform:
-      position: {x: 564, y: 71, z: 0}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
-      scale: {x: 3, y: 3, z: 3}
+    position: {x: 564, y: 71, z: 0}
   - prefab: {fileID: 110840, guid: a2c05570af63bca4db1a0cd619539938, type: 3}
-    transform:
-      position: {x: 726, y: 44, z: 0}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
-      scale: {x: 3, y: 3, z: 3}
+    position: {x: 679, y: 5, z: 0}
   - prefab: {fileID: 187036, guid: d7e9dc2247ea00e41bea6d748384a854, type: 3}
-    transform:
-      position: {x: 829, y: -97, z: 0}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
-      scale: {x: 3, y: 3, z: 3}
+    position: {x: 829, y: -97, z: 0}
   - prefab: {fileID: 187036, guid: d7e9dc2247ea00e41bea6d748384a854, type: 3}
-    transform:
-      position: {x: 869, y: 44, z: 0}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
-      scale: {x: 3, y: 3, z: 3}
+    position: {x: 831, y: 35, z: 0}
   - prefab: {fileID: 187036, guid: d7e9dc2247ea00e41bea6d748384a854, type: 3}
-    transform:
-      position: {x: 1022, y: 143, z: 0}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
-      scale: {x: 3, y: 3, z: 3}
+    position: {x: 991, y: 84, z: 0}
   - prefab: {fileID: 187036, guid: d7e9dc2247ea00e41bea6d748384a854, type: 3}
-    transform:
-      position: {x: 715, y: -121, z: 0}
-      rotation: {x: -0, y: -0, z: -0, w: 1}
-      scale: {x: 3, y: 3, z: 3}
+    position: {x: 715, y: -121, z: 0}
   - prefab: {fileID: 187036, guid: d7e9dc2247ea00e41bea6d748384a854, type: 3}
-    transform:
-      position: {x: 446, y: 106, z: 0}
-      rotation: {x: -0.58309215, y: -0.27407512, z: -0.21800916, w: 0.73304737}
-      scale: {x: 3, y: 3, z: 3}
-  bonuses: []
-  enemies: []
+    position: {x: 446, y: 106, z: 0}
+  containerName: Objects

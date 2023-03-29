@@ -35,7 +35,6 @@ Transform:
   m_Children:
   - {fileID: 161612284096916117}
   - {fileID: 8176285682046197760}
-  - {fileID: 3090459569675454753}
   - {fileID: 4202748106882312679}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -181,7 +180,7 @@ MonoBehaviour:
   maxHealth: 100
   deathAnimation: {fileID: 199016, guid: f0f65e6f60b4f3a4dbc45b68038aaa89, type: 3}
   deathAnimationDuration: 2
-  visibilityCheckerName: isPlayerHealthVisible
+  visibilityChecker: 0
   healthBar: {fileID: 3850304762564118237}
 --- !u!114 &2100452277644984465
 MonoBehaviour:
@@ -314,13 +313,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5477603647082068433}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -2, z: 22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4697978592042794}
-  m_RootOrder: 2
+  m_Father: {fileID: 8176285682046197760}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7293521530298724603
 GameObject:
@@ -352,7 +351,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 3090459569675454753}
   m_Father: {fileID: 4697978592042794}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -451,7 +451,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5542234979404621853, guid: 80f844c8f37e7494292541bddf8b49da, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5542234979404621853, guid: 80f844c8f37e7494292541bddf8b49da, type: 3}
       propertyPath: m_AnchorMax.x

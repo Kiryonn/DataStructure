@@ -46,9 +46,5 @@ public class Player: ShipController {
 			Destroy(other.gameObject);
 			health.DamageBy(damageAmount);
 		}
-		else if (other.gameObject.GetComponent<LevelEnd>()) {
-			GameManager.Instance.LoadNextLevel();
-			transform.position = Vector3.zero;
-		}
 	}
 }
