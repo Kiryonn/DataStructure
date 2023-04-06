@@ -11,7 +11,7 @@ public class Health: MonoBehaviour {
 	[SerializeField] private Slider healthBar;
 
 	[NonSerialized] public float currentHealth;
-	private List<Effect> effets;
+	// private List<Effect> effets;
 
 	protected virtual void Start() {
 		currentHealth = maxHealth;
