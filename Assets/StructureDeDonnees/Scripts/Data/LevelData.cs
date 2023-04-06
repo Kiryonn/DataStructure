@@ -32,7 +32,8 @@ public class LevelData: ScriptableObject {
 			ObjectData objectData = new ObjectData(prefab, obj.transform);
 			objects.Add(objectData);
 		}
-		
+
+		EditorUtility.SetDirty(this);
 		// finished saving stuff successfully
 		Debug.Log("Save Finished Successfully");
 	}
