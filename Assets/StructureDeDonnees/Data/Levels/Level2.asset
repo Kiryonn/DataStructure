@@ -14,10 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objects:
   - prefab: {fileID: 187036, guid: d7e9dc2247ea00e41bea6d748384a854, type: 3}
-    position: {x: 358.68475, y: 64.574104, z: 0}
+    position: {x: 736, y: 74, z: 0}
   - prefab: {fileID: 110840, guid: a2c05570af63bca4db1a0cd619539938, type: 3}
-    position: {x: 500.9219, y: -18.121895, z: 0}
+    position: {x: 735, y: -135, z: 0}
+  - prefab: {fileID: 110840, guid: a2c05570af63bca4db1a0cd619539938, type: 3}
+    position: {x: 897, y: -14, z: 0}
   - prefab: {fileID: 4682113523484873845, guid: fc9c7d93badd6f4419964598f080724c, type: 3}
-    position: {x: 1680, y: 0, z: 0}
+    position: {x: 1653.7, y: 24.8, z: 0}
   - prefab: {fileID: 4682113523484873845, guid: fc9c7d93badd6f4419964598f080724c, type: 3}
-    position: {x: 1365, y: -89, z: 0}
+    position: {x: 1467.3, y: -111.6, z: 0}

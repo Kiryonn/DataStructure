@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class Player: ShipController {
+	public static Player Instance;
 	[Header("Movement")]
 	public float speed = 100f;
 	public float heightMax = 150f;
@@ -10,6 +12,11 @@ public class Player: ShipController {
 	private static readonly int LeftAnimation  = Animator.StringToHash("Left");
 	private static readonly int RightAnimation = Animator.StringToHash("Right");
 
+	private void Awake() {
+		if (Instance == null)
+			Instance = this;
+	}
+	
 	protected override void Movement() {
 		// get inputs
 		var horizontalAxis = Input.GetAxis("Horizontal");
@@ -20,7 +27,7 @@ public class Player: ShipController {
 		var speedVertical = verticalAxis * speed * Time.deltaTime;
 		var speedHorizontal = Mathf.Clamp(horizontalAxis * speed * Time.deltaTime, -0.9f, 1f);
 
-		transform.Translate(0, speedVertical, speedHorizontal + speedForward);
+		transform.position += new Vector3(speedHorizontal + speedForward, speedVertical, 0);
 
 		// forbid the player from leaving the playing area
 		Vector3 position = transform.position;

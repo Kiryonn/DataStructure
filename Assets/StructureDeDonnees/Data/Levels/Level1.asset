@@ -37,4 +37,3 @@ MonoBehaviour:
     position: {x: 715, y: -121, z: 0}
   - prefab: {fileID: 187036, guid: d7e9dc2247ea00e41bea6d748384a854, type: 3}
     position: {x: 446, y: 106, z: 0}
-  containerName: Objects

@@ -3,9 +3,8 @@ using Random = UnityEngine.Random;
 
 public abstract class ShipController: MonoBehaviour {
 	public Health health;
-
-	[Header("Assignements")]
 	public Animator anim;
+	[SerializeField] protected Transform model;
 
 	[Header("Laser")]
 	[SerializeField] private bool isShooting = true;
@@ -19,9 +18,9 @@ public abstract class ShipController: MonoBehaviour {
 
 	protected virtual void Update() {
 		Movement();
+		Animation();
 		if (isShooting)
 			Laser();
-		Animation();
 	}
 
 	private void Laser() {
@@ -43,9 +42,7 @@ public abstract class ShipController: MonoBehaviour {
 
 	protected abstract void Movement();
 
-	protected virtual void Animation() {
-		
-	}
+	protected virtual void Animation() { }
 
 	protected virtual void OnCollisionEnter(Collision other) {
 		if (other.gameObject.GetComponent<Asteroid>()) {

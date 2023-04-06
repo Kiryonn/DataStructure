@@ -2,11 +2,11 @@
 using UnityEngine;
 
 public class GateAttackSpeed: Gate {
-	[Range(1, 3)]
-	[SerializeField] private float attackCooldownDivider;
+	[Range(0, 0.5f)]
+	[SerializeField] private float attackCooldownBuff;
 
 	protected override void Action(Player player) {
-		player.laserCooldown /= attackCooldownDivider;
+		player.laserCooldown -= attackCooldownBuff;
 
 		if (player.laserCooldown < player.minAttackCooldown)
 			player.laserCooldown = player.minAttackCooldown;

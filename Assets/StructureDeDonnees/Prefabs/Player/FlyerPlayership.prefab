@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4697978592042794}
-  - component: {fileID: 4019093984746468329}
   - component: {fileID: 5505165074841036883}
+  - component: {fileID: 4019093984746468329}
   - component: {fileID: 1934116580474022099}
-  - component: {fileID: 3662398142100835705}
   - component: {fileID: 2100452277644984465}
+  - component: {fileID: 3662398142100835705}
   m_Layer: 7
   m_Name: FlyerPlayership
   m_TagString: Untagged
@@ -39,22 +39,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &4019093984746468329
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1652679636384756}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!82 &5505165074841036883
 AudioSource:
   m_ObjectHideFlags: 0
@@ -151,6 +135,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!54 &4019093984746468329
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652679636384756}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!64 &1934116580474022099
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -165,6 +165,31 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: -1
   m_Mesh: {fileID: 4300000, guid: aa54e651bf1f55c468343c04b662420e, type: 3}
+--- !u!114 &2100452277644984465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652679636384756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f0b6b2567b8a0943bf4b9b176beb2d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: {fileID: 3662398142100835705}
+  anim: {fileID: 7598386168724746802}
+  model: {fileID: 8176285682046197760}
+  isShooting: 1
+  cannons:
+  - {fileID: 3090459569675454753}
+  laserPrefab: {fileID: 191658, guid: f386356fcd3ead24e94bbb23acc66e48, type: 3}
+  laserCooldown: 1
+  minAttackCooldown: 0.1
+  damage: 10
+  laserAudio: {fileID: 5505165074841036883}
+  speed: 100
+  heightMax: 150
 --- !u!114 &3662398142100835705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -182,30 +207,6 @@ MonoBehaviour:
   deathAnimationDuration: 2
   visibilityChecker: 0
   healthBar: {fileID: 3850304762564118237}
---- !u!114 &2100452277644984465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1652679636384756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f0b6b2567b8a0943bf4b9b176beb2d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: {fileID: 3662398142100835705}
-  anim: {fileID: 7598386168724746802}
-  isShooting: 1
-  cannons:
-  - {fileID: 3090459569675454753}
-  laserPrefab: {fileID: 191658, guid: f386356fcd3ead24e94bbb23acc66e48, type: 3}
-  laserCooldown: 0.25
-  minAttackCooldown: 0.1
-  damage: 10
-  laserAudio: {fileID: 5505165074841036883}
-  speed: 100
-  heightMax: 150
 --- !u!1 &3377358624180196777
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,7 +233,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3377358624180196777}
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 150, y: 0, z: 106}
+  m_LocalPosition: {x: 100, y: 0, z: 120}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -262,11 +263,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 150
+  orthographic size: 210
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2

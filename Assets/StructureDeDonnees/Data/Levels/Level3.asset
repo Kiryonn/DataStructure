@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0067824820d4f89a03fbc5b44317ee6, type: 3}
   m_Name: Level3
   m_EditorClassIdentifier: 
-  enemies: []
-  asteroids: []
+  objects: []
