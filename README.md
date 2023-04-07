@@ -27,6 +27,6 @@ Les bonus fonctionnent très simplement.<br>
 Il vous suffit de :
 - créer une classe enfant à Gate
 - déclarer vos variables pour le bonus
-- override la fonction Action (qui est obligatoire grace a ca propriété `abstract`)
+- override la fonction Action (qui est obligatoire grâce à sa propriété `abstract`)
 
 ![](ReadmeImages/GateCode.png)
