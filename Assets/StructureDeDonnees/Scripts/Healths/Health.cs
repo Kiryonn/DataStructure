@@ -28,12 +28,12 @@ public class Health: MonoBehaviour {
 
 	public void HealBy(float heal) {
 		currentHealth = Mathf.Clamp(currentHealth + heal, 0, maxHealth);
-
-		if (currentHealth == 0)
-			Death();
 		
 		if (isHealthVisible)
 			healthBar.value = currentHealth;
+
+		if (currentHealth == 0)
+			Death();
 	}
 
 	public void DamageBy(float damage) {
