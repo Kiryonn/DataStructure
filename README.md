@@ -17,6 +17,8 @@ Pour ce jeu, je veux créer un système tel quel:
 
 ### Le système de vie
 La vie de toute les entitée est visible et détaché de tout le reste, rendant le system utilisable pour de futurs projets.<br>
+Avoir une animation de mort null ne pose aucun problème puisque mon code le prend en compte. Mais la barre de vie est nécessaire.
+![](ReadmeImages/HealthInspector.png)<br>
 ![](ReadmeImages/HealthCode.png)<br>
 Vous aurez peut être remarqué la variable "visibilityChecker". Elle permet de verifier si le joueur veut afficher la vie de certaines entitée ou non. Par défaut, elle vaut None (enumeration) qui affiche la vie obligatoirement (utile pour le joueur et les boss).
 
