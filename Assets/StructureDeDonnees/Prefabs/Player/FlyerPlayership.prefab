@@ -189,6 +189,7 @@ MonoBehaviour:
   laserAudio: {fileID: 5505165074841036883}
   speed: 100
   heightMax: 150
+  playerCamera: {fileID: 8658108400915293319}
 --- !u!114 &3662398142100835705
 MonoBehaviour:
   m_ObjectHideFlags: 0

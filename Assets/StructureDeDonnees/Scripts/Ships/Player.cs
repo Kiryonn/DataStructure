@@ -1,11 +1,13 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Player: ShipController {
 	public static Player Instance;
 	[Header("Movement")]
 	public float speed = 100f;
 	public float heightMax = 150f;
+	
+	[Header("Other")]
+	[SerializeField] private Camera playerCamera;
 	
 	private static readonly int UpAnimation    = Animator.StringToHash("Up");
 	private static readonly int DownAnimation  = Animator.StringToHash("Down");
@@ -56,6 +58,9 @@ public class Player: ShipController {
 	}
 	private void OnDestroy()
 	{
-		Camera.main!.transform.parent = null;
+		playerCamera.transform.parent = null;
+		playerCamera.enabled = true;
+		playerCamera.GetComponent<AudioListener>().enabled = true;
+		GameManager.Instance.Defeat();
 	}
 }
