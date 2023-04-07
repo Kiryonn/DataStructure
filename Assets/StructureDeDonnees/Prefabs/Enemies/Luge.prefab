@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2204221986279783345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 7033045083603908924}
   - component: {fileID: 4677455340629132607}
   - component: {fileID: 3239539838008179114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,7 +146,7 @@ GameObject:
   - component: {fileID: 7691587652840389896}
   - component: {fileID: 3596546038599417483}
   - component: {fileID: 1764376477522181346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Luge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 6907534785834721211}
   - component: {fileID: 7526541781498466334}
   - component: {fileID: 5735143457149347028}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -433,7 +433,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3253443178306879544}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -466,7 +466,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1616561469685416349}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cannon (1)
   m_TagString: Untagged
   m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
@@ -495,9 +495,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6396844667919896221}
     m_Modifications:
+    - target: {fileID: 1710610975438706473, guid: 1c06749d3070982418d27e738de41f43, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1874358196584627977, guid: 1c06749d3070982418d27e738de41f43, type: 3}
       propertyPath: m_Name
       value: HPBar
+      objectReference: {fileID: 0}
+    - target: {fileID: 1874358196584627977, guid: 1c06749d3070982418d27e738de41f43, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4142154508721548907, guid: 1c06749d3070982418d27e738de41f43, type: 3}
       propertyPath: m_Pivot.x
@@ -590,6 +598,14 @@ PrefabInstance:
     - target: {fileID: 6917059478877727683, guid: 1c06749d3070982418d27e738de41f43, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6994372891734672322, guid: 1c06749d3070982418d27e738de41f43, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592453434077222134, guid: 1c06749d3070982418d27e738de41f43, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c06749d3070982418d27e738de41f43, type: 3}

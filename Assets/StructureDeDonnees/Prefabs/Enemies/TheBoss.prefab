@@ -328,7 +328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98930c2a5efe457e97a44f967d44474f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 1000
+  maxHealth: 2000
   deathAnimation: {fileID: 0}
   deathAnimationDuration: 0
   visibilityChecker: 0

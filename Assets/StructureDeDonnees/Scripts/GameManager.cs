@@ -8,6 +8,7 @@ public class GameManager: MonoBehaviour {
 	[SerializeField] private CanvasRenderer defeatPanel;
 	[SerializeField] private CanvasRenderer pausePanel;
 	private int currentLevelIndex;
+	private bool canPause = true;
 
 	private void Awake() {
 		if (Instance == null) Instance = this;
@@ -30,28 +31,32 @@ public class GameManager: MonoBehaviour {
 	}
 
 	private void Update() {
-		if (Input.GetButtonDown("Cancel"))
-			if (Time.timeScale == 0) Resume();
-			else Pause();
+		if (!Input.GetButtonDown("Cancel")) return;
+		if (!canPause) return;
+
+		if (Time.timeScale == 0) Resume();
+		else Pause();
 	}
 
 	private void Victory() {
-		Time.timeScale = 0;
+		canPause = false;
 		victoryPanel.gameObject.SetActive(true);
+		Time.timeScale = 0;
 	}
 
 	public void Defeat() {
-		Time.timeScale = 0;
+		canPause = false;
 		defeatPanel.gameObject.SetActive(true);
+		Time.timeScale = 0;
 	}
 
 	public void Pause() {
-		Time.timeScale = 0;
 		pausePanel.gameObject.SetActive(true);
+		Time.timeScale = 0;
 	}
 
 	public void Resume() {
-		Time.timeScale = 1;
 		pausePanel.gameObject.SetActive(false);
+		Time.timeScale = 1;
 	}
 }
