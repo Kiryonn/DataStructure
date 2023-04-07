@@ -1,3 +1,8 @@
+<style>
+	h3 { color: green; }
+</style>
+
+
 ## Introduction
 Ce jeu de type Shoot'Em Up n'a pas de nom. C'est un jeu destiné à montrer ma capacité à utiliser des structures de données cohérentes dans un temps limité (1 semaine).
 
@@ -11,16 +16,26 @@ Pour ce jeu, je veux créer un système tel quel:
 - Ennemies :
 	- Luge : Enemie par défaut. Il ne bouge pas et tire 2 laser toute les secondes
 	- Rendroach : Le Rendroach est un kamikaze qui à la capacité de passer outre les défenses du joueur.
+	- The boss: ???
 
 
 ## Les points que je veux mettre en avant
+Somaire:
+- [Le système de vie](#le-système-de-vie)
+- [Les bonus](#les-bonus)
 
 ### Le système de vie
 La vie de toute les entitée est visible et détaché de tout le reste, rendant le system utilisable pour de futurs projets.<br>
 Avoir une animation de mort null ne pose aucun problème puisque mon code le prend en compte. Mais la barre de vie est nécessaire.
+
+
 ![](ReadmeImages/HealthInspector.png)<br>
-![](ReadmeImages/HealthCode.png)<br>
-Vous aurez peut être remarqué la variable "visibilityChecker". Elle permet de verifier si le joueur veut afficher la vie de certaines entitée ou non. Par défaut, elle vaut None (enumeration) qui affiche la vie obligatoirement (utile pour le joueur et les boss).
+![](ReadmeImages/HealthCode.png)
+
+
+Faire des dégats, c'est simplement soigner le joueur avec une valeur négative:
+
+![](ReadmeImages/HealthCode_DealDamage.png)
 
 ### Les bonus
 Les bonus fonctionnent très simplement.<br>
