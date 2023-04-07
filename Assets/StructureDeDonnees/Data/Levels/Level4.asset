@@ -163,3 +163,9 @@ MonoBehaviour:
     position: {x: 4859.5, y: -97.25, z: 0}
   - prefab: {fileID: 110840, guid: a2c05570af63bca4db1a0cd619539938, type: 3}
     position: {x: 4168, y: 123, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 2400, y: 0, z: 0}
+  - prefab: {fileID: 5448170099226591326, guid: 393c6746f63a8d8439b483bc8f6a76e5, type: 3}
+    position: {x: 2850, y: -100, z: 0}
+  - prefab: {fileID: 2951256638540911632, guid: 152da0ca6b480eb41800974e55ddd967, type: 3}
+    position: {x: 2200, y: 0, z: 0}

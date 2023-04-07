@@ -12,4 +12,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0067824820d4f89a03fbc5b44317ee6, type: 3}
   m_Name: Level5
   m_EditorClassIdentifier: 
-  objects: []
+  objects:
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 6264059692727182621, guid: 332bd4e05c9c9cb4f8a5112b95287007, type: 3}
+    position: {x: 0, y: 0, z: 0}
+  - prefab: {fileID: 3050623070290140020, guid: 331290eebb0d5fa48b05341c3f2e53f0, type: 3}
+    position: {x: 487, y: 0, z: 89}
