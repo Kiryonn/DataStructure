@@ -15,7 +15,7 @@ Pour ce jeu, je veux créer un système tel quel:
 
 
 ## Les points que je veux mettre en avant
-Somaire:
+Sommaire:
 - [Le système de vie](#le-système-de-vie)
 - [Les bonus](#les-bonus)
 - [La sauvegarde des niveaux](#la-sauvegarde-des-niveaux)
