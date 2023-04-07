@@ -3,20 +3,17 @@ Ce jeu de type Shoot'Em Up n'a pas de nom. C'est un jeu destiné à montrer ma c
 
 ## Mes intentions
 Pour ce jeu, je veux créer un système tel quel:
-- Upgrades : Le joueur pourra améliorer ses armes en augmentant:
-  - son nombre de canons
-  - ses dégats
-  - sa vitesse d'attaque
 - Bonus : Des portails apparaîtront pour donner des bonus au joueur. Voici les différents type de portails :
-  - Portail de vie : heal le joueur
-  - Portail d'attaque : Upgrade l'attaque du joueur
-  - Portail de vitesse d'attaque : Upgrade la vitesse d'attaque du joueur
+	- Portail de vie : heal le joueur
+	- Portail d'attaque : Upgrade l'attaque du joueur
+	- Portail de vitesse d'attaque : Upgrade la vitesse d'attaque du joueur
 - Ennemies :
-  - Rendroach : Rapide et agressif, le Rendroach est un kamikaze qui à la capacité de passer outre les défenses du joueur. Ils apparaissent à partir du niveau 2.
-  - ... :
-  - ... : 
-  - ... :
-  - ... :
-- Boss :
-  - ...
-  - ...
+	- Luge : Enemie par défaut. Il ne bouge pas et tire 2 laser toute les secondes
+	- Rendroach : Le Rendroach est un kamikaze qui à la capacité de passer outre les défenses du joueur.
+
+## Les points que je veux mettre en avant
+### La vie
+La vie de toute les entitée est visible et détaché de tout le reste, rendant le system utilisable pour de futurs projets.
+![](ReadmeImages/HealthCode.png)
+
+Vous aurez peut être remarqué la variable "visibilityChecker". Elle permet de verifier si le joueur veut afficher la vie de certaines entitée ou non. Par défaut, elle vaut None (enumeration) qui affiche la vie obligatoirement (utile pour le joueur et les boss).
