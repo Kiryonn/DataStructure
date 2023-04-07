@@ -4,14 +4,16 @@ Ce jeu de type Shoot'Em Up n'a pas de nom. C'est un jeu destiné à montrer ma c
 
 ## Mes intentions
 Pour ce jeu, je veux créer un système tel quel:
-- Bonus : Des portails apparaîtront pour donner des bonus au joueur. Voici les différents type de portails :
+- Bonus permanant: Des portails apparaîtront pour donner des bonus au joueur. Voici les différents type de portails :
 	- Portail de vie : heal le joueur
 	- Portail d'attaque : Upgrade l'attaque du joueur
 	- Portail de vitesse d'attaque : Upgrade la vitesse d'attaque du joueur
 - Ennemies :
 	- Luge : Enemie par défaut. Il ne bouge pas et tire 2 laser toute les secondes
 	- Rendroach : Le Rendroach est un kamikaze qui à la capacité de passer outre les défenses du joueur.
-	- The boss: ???
+	- The boss: tire un rayon laser en plus de projectiles de base. Malheureusement ne fonctionne pas :c
+- Les Effets a impact: (pas eu le temps)
+	- Poison: inflige des dégats sur la durée
 
 
 ## Les points que je veux mettre en avant
