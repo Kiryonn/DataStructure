@@ -23,7 +23,7 @@ public class Player: ShipController {
 		// get inputs
 		var horizontalAxis = Input.GetAxis("Horizontal");
 		var verticalAxis = Input.GetAxis("Vertical");
-		
+
 		// speed calculation
 		var speedForward = speed * Time.deltaTime;
 		var speedVertical = verticalAxis * speed * Time.deltaTime;

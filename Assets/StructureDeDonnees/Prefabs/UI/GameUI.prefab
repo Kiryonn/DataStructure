@@ -814,6 +814,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: VictoryPanel
       objectReference: {fileID: 0}
+    - target: {fileID: 1169956564522760974, guid: fdd7064e08b54b34d845c1b3ff22290b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2170001637235562945, guid: fdd7064e08b54b34d845c1b3ff22290b, type: 3}
+      propertyPath: m_text
+      value: 'Congrats, You finished the game !
+
+
+        It was a boring one, i
+        know.
+
+        But i will bring a good one soon.
+
+        Check out my GitHub
+        page at
+
+        <link="https://github.com/Kiryonn">https://github.com/Kiryonn</link>'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdd7064e08b54b34d845c1b3ff22290b, type: 3}
 --- !u!224 &7055981460322809720 stripped
