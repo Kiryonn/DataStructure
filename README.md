@@ -1,8 +1,3 @@
-<style>
-	h3 { color: green; }
-</style>
-
-
 ## Introduction
 Ce jeu de type Shoot'Em Up n'a pas de nom. C'est un jeu destiné à montrer ma capacité à utiliser des structures de données cohérentes dans un temps limité (1 semaine).
 
