@@ -28,4 +28,5 @@ Il vous suffit de :
 - créer une classe enfant à Gate
 - déclarer vos variables pour le bonus
 - override la fonction Action (qui est obligatoire grace a ca propriété `abstract`)
+
 ![](ReadmeImages/GateCode.png)
