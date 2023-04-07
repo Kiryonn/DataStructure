@@ -54,4 +54,8 @@ public class Player: ShipController {
 			health.DamageBy(damageAmount);
 		}
 	}
+	private void OnDestroy()
+	{
+		Camera.main!.transform.parent = null;
+	}
 }

@@ -11,15 +11,18 @@ public class Health: MonoBehaviour {
 	[SerializeField] private Slider healthBar;
 
 	[NonSerialized] public float currentHealth;
-	// private List<Effect> effets;
 
-	protected virtual void Start() {
+	private bool isHealthVisible;
+	private List<Effect> effects;
+
+	private void Start() {
 		currentHealth = maxHealth;
 		healthBar.maxValue = maxHealth;
 		healthBar.value = maxHealth;
-		if (visibilityChecker == SettingsCheckers.None)
-			healthBar.gameObject.SetActive(true);
-		else if (PlayerPrefs.GetInt(Globals.settingCheckers[visibilityChecker]) == 0)
+
+		isHealthVisible = visibilityChecker == SettingsCheckers.None ||
+						PlayerPrefs.GetInt(Globals.settingCheckers[visibilityChecker]) == 1;
+		if (!isHealthVisible)
 			healthBar.gameObject.SetActive(false);
 	}
 
@@ -29,9 +32,7 @@ public class Health: MonoBehaviour {
 		if (currentHealth == 0)
 			Death();
 		
-		if (visibilityChecker == SettingsCheckers.None)
-			healthBar.value = currentHealth;
-		else if (PlayerPrefs.GetInt(Globals.settingCheckers[visibilityChecker]) == 1)
+		if (isHealthVisible)
 			healthBar.value = currentHealth;
 	}
 

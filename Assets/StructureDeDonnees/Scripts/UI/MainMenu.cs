@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -13,11 +12,11 @@ public class MainMenu: MonoBehaviour {
 		QuitButton.onClick.AddListener(Application.Quit);
 		
 		// set default settings values if they don't exist
-		var asteroidHpChecker = Globals.settingCheckers[SettingsCheckers.AsteroidHpVisibility];
+		var asteroidHpChecker = Globals.settingCheckers[SettingsCheckers.Asteroid];
 		if (!PlayerPrefs.HasKey(asteroidHpChecker))
 			PlayerPrefs.SetInt(asteroidHpChecker, 1);
 		
-		var enemyHpChecker = Globals.settingCheckers[SettingsCheckers.EnemyHpVisibility];
+		var enemyHpChecker = Globals.settingCheckers[SettingsCheckers.Enemy];
 		if (!PlayerPrefs.HasKey(enemyHpChecker))
 			PlayerPrefs.SetInt(enemyHpChecker, 1);
 	}

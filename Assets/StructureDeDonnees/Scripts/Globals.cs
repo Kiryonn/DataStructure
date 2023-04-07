@@ -10,13 +10,13 @@ public class Globals {
 	}
 
 	public static readonly Dictionary<SettingsCheckers, string> settingCheckers = new Dictionary<SettingsCheckers, string> {
-		{ SettingsCheckers.AsteroidHpVisibility, "asteroidHpVisibility" },
-		{ SettingsCheckers.EnemyHpVisibility, "enemyHpVisibility" }
+		{ SettingsCheckers.Asteroid, "asteroidHpVisibility" },
+		{ SettingsCheckers.Enemy, "enemyHpVisibility" }
 	};
 }
 
 public enum SettingsCheckers {
 	None = 0,
-	AsteroidHpVisibility = 1,
-	EnemyHpVisibility = 2
+	Asteroid = 1,
+	Enemy = 2
 }
