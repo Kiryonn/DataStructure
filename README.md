@@ -11,7 +11,7 @@ Pour ce jeu, je veux créer un système tel quel:
 - Ennemies :
 	- Luge : Enemie par défaut. Il ne bouge pas et tire 2 laser toute les secondes
 	- Rendroach : Le Rendroach est un kamikaze qui à la capacité de passer outre les défenses du joueur.
-	- The boss: tire un rayon laser en plus de projectiles de base. Malheureusement, je n'ai pas eu le temps de tout implementer.
+	- The boss: tire un rayon laser en plus de projectiles de base. Malheureusement, je n'ai pas eu le temps de tout implementer. The boss est dans une chaise roulante cassée actuellement.
 - Les Effets a impact: (pas eu le temps)
 	- Poison: inflige des dégats sur la durée
 
