@@ -11,16 +11,26 @@ Pour ce jeu, je veux créer un système tel quel:
 - Ennemies :
 	- Luge : Enemie par défaut. Il ne bouge pas et tire 2 laser toute les secondes
 	- Rendroach : Le Rendroach est un kamikaze qui à la capacité de passer outre les défenses du joueur.
-	- The boss: tire un rayon laser en plus de projectiles de base. Malheureusement ne fonctionne pas :c
+	- The boss: tire un rayon laser en plus de projectiles de base. Malheureusement, je n'ai pas eu le temps de tout implementer.
 - Les Effets a impact: (pas eu le temps)
 	- Poison: inflige des dégats sur la durée
+
+
+## Comment jouer
+- Déplacements: WASD.
+- Le tir est automatique.
+- Les portails rouges augmentes l'attaque.
+- Les portails orange augmentes la vitesse d'attaque.
+- Les portails verts régenère votre barre de vie.
+- Appuyer sur échap en jeu pour afficher le menu de pause.
+- Dans le menu principal, vous pouvez changer l'affichage de la vie des entités.
 
 
 ## Les points que je veux mettre en avant
 Sommaire:
 - [Le système de vie](#le-système-de-vie)
 - [Les bonus](#les-bonus)
-- [La sauvegarde des niveaux](#la-sauvegarde-des-niveaux)
+- [La création des niveaux](#la-sauvegarde-des-niveaux)
 
 ### Le système de vie
 La vie de toute les entitée est visible et détaché de tout le reste, rendant le system utilisable pour de futurs projets.<br>
