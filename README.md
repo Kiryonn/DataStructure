@@ -30,7 +30,7 @@ Pour ce jeu, je veux créer un système tel quel:
 Sommaire:
 - [Le système de vie](#le-système-de-vie)
 - [Les bonus](#les-bonus)
-- [Le Save & Load des niveaux](#le-save-&-load-des-niveaux)
+- [Le Save & Load des niveaux](#le-save--load-des-niveaux)
 
 ### Le système de vie
 La vie de toute les entitée est visible et détaché de tout le reste, rendant le system utilisable pour de futurs projets.<br>
